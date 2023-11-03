@@ -6,13 +6,13 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #069C54;
+  --first-color: #ff6600;
   --first-color-alt: #048654;
   --title-color: #393939;
-  --text-color: #707070;
+  --text-color: #0f0f0f;
   --text-color-light: #A6A6A6;
   --body-color: #FBFEFD;
-  --container-color: #FFFFFF;
+  --container-color: #663300;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -149,7 +149,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background-color: #663300;
 }
 
 /*========== NAV ==========*/
@@ -170,7 +170,7 @@ img{
     width: 100%;
     padding: 1.5rem 0 1rem;
     text-align: center;
-    background-color: var(--body-color);
+    background-color: #663300;
     transition: .4s;
     box-shadow: 0 4px 4px rgba(0,0,0,.1);
     border-radius: 0 0 1rem 1rem;
@@ -183,7 +183,7 @@ img{
 }
 
 .nav__link, .nav__logo, .nav__toggle{
-  color: #FF8C00;
+  color: var(--first-color);
   font-weight: var(--font-medium);
 }
 
@@ -212,7 +212,7 @@ img{
 
 /* Active menu */
 .active-link{
-  color: #FF8C00;
+  color: var(--first-color);
 }
 
 /* Change background header */
@@ -229,7 +229,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgb(255, 140, 40);
+  background: #663300;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -237,12 +237,12 @@ img{
 }
 
 .scrolltop:hover{
-  background-color: var(--first-color-alt);
+  background-color: #ff6600;
 }
 
 .scrolltop__icon{
   font-size: 1.8rem;
-  color: #FF8C00;
+  color: #FFF;
 }
 
 /* Show scrolltop */
@@ -259,14 +259,13 @@ img{
 
 .home__title{
   font-size: var(--biggest-font-size);
-  color: #FF8C00;
+  color: var(--first-color);
   margin-bottom: var(--mb-1);
   align-content: center;
 }
 
 .home__subtitle{
-  font-size: var(--h1-font-size);
-  color: #FF8C00;
+  font-size: var(--h1-font-size); 
   margin-bottom: var(--mb-4);
   align-content: center;
 }
@@ -326,7 +325,7 @@ img{
 
 .services__title{
   font-size: var(--h3-font-size);
-  color: #FF8C00;
+  color: var(--first-color);
   margin-bottom: var(--mb-1);
 }
 
@@ -358,7 +357,7 @@ img{
 
 .menu__name, .menu__preci{
   font-weight: var(--font-semi-bold);
-  color: #FF8C00;
+  color: var(--first-color);
 }
 
 .menu__name{
@@ -422,7 +421,7 @@ img{
 
 .footer__logo{
   font-size: var(--h3-font-size);
-  color: #FF8C00;
+  color: var(--first-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -434,7 +433,7 @@ img{
 
 .footer__social{
   font-size: 1.5rem;
-  color: #FF8C00;
+  color: var(--first-color);
   margin-right: var(--mb-2);
 }
 
